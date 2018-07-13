@@ -1,0 +1,17 @@
+--execute undo after create a new game(it can not be done)
+new_game("Xavier","Ora")
+play("Xavier",1)
+play("Ora",2)
+play("Xavier",9)
+play("Ora",5)
+play("Xavier",7)
+play("Ora",8)
+new_game("g","m")
+undo
+
+
+
+
+
+
+

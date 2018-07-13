@@ -1,0 +1,17 @@
+-- check undo/redo after executing play command
+new_game("Xavier","Ora")
+play("Xavier",1)
+play("Ora",2)
+play("Xavier",9)
+play("Ora",5)
+play("Xavier",7)
+undo
+undo
+redo
+redo
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+--check play command and its output messages
+new_game("Xavier","Ora")
+play("",1)
+play("Xavier",1)
+play("Ora",1)
+play("Ora",2)
+
+
+
+
+
+
